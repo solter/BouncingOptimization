@@ -8,3 +8,16 @@ along with the number of bounces to take (N), find the angle the tosser must
 launch the ball to hit the reciever.
 
 This will be done via an optimization routine.
+
+## Landscapes
+Landscapes should use the following JSON format:
+```
+{
+"x":[],
+"y":[],
+"z":[[],
+     [],
+     ...]
+ }
+```
+Where `z` is a grid such that `x[i]`, `y[j]` correspond to `z[i,j]`
