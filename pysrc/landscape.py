@@ -28,6 +28,7 @@ class landscape():
         Where x, y, z are floats,
         v1, v2, and v3 are the indices for the triangles.
         Note that this does NOT do 3-D shapes, just a 2-D surface.
+        Thus no 2 verts should share x and y
         """
         with open(fname, 'r') as f:
             data = json.load(f)

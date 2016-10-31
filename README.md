@@ -13,11 +13,11 @@ This will be done via an optimization routine.
 Landscapes should use the following JSON format:
 ```
 {
-"x":[],
-"y":[],
-"z":[[],
-     [],
-     ...]
+"verts":[],
+"tri":[]
  }
 ```
-Where `z` is a grid such that `x[i]`, `y[j]` correspond to `z[i,j]`
+Where each vertex has specifies [x,y,z], and
+each triangle specifies [v1, v2, v3] where each vn is an index
+to the vertices (0-indexed).
+No two vertices should share a x and y, otherwise bad things happen.
