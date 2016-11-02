@@ -136,8 +136,6 @@ class landscape():
         else:
             return False
 
-
-
     def _getPlane(self, tri_idx):
         """
         Get the gradient and function to evaluate on this plane

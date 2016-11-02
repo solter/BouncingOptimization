@@ -21,3 +21,14 @@ Where each vertex has specifies [x,y,z], and
 each triangle specifies [v1, v2, v3] where each vn is an index
 to the vertices (0-indexed).
 No two vertices should share a x and y, otherwise bad things happen.
+
+## Tosser
+The tosser is throws the ball.
+It is initialized with a position.
+Then it can throw the ball with a speed,
+number bounces to take,
+and direction specified in angular coordinates.
+
+
+TODO: Create a test case with an analytic solution,
+e.g. a tosser on a plane with 1, then 2 bounces.
